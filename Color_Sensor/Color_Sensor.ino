@@ -97,7 +97,7 @@ void readColor() {
     Serial.print("Verde");
     wtv020sd16p.playVoice(2);
   }
-  if(R<50 & R>24 & G<60 & G>30 & B<50 & B>30){
+  if(R<50 & R>24 & G<60 & G>30){
     Serial.print("Giallo");
     wtv020sd16p.playVoice(4);
   }
@@ -121,9 +121,6 @@ void readColor() {
     Serial.print("Grigio");
     wtv020sd16p.playVoice(8);
   }
-  if(R<40 & R>20 & G<80 & G>40 & B<80 & B>45 ){
-    Serial.print("Arancione");
-    wtv020sd16p.playVoice(9);
-  }
+  
 }
 
