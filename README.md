@@ -10,4 +10,4 @@ Il sistema è stato realizzato sfruttando una scheda elettronica Arduino munita 
 
 3. Tools
  
-I file audio sono stati convertiti dal formato mp3 o wav a ad4 attraverso SOMO tool, mentre per effettuare le registrazioni vocali è stato utilizzato un software di editing audio open source chiamato AUDACITY.  
+I file audio sono stati convertiti dal formato mp3 o wav a .ad4 attraverso SOMO tool, mentre per effettuare le registrazioni vocali è stato utilizzato un software di editing audio open source chiamato AUDACITY.  
