@@ -121,6 +121,10 @@ void readColor() {
     Serial.print("Grigio");
     wtv020sd16p.playVoice(8);
   }
+  else {
+    Serial.print("colore non trovato");
+    wtv020sd16p.playVoice(8);
+  }
   
 }
 
