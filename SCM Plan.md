@@ -1,6 +1,6 @@
 #SCM Plan
 
-1 **Introduzione**
+1 **Introduction**
 
 La seguente idea di progetto nasce con il proposito di aiutare coloro i quali presentino delle invalidità, 
 al fine di garantire una percezione del mondo più completa. L'idea è quella di realizzare un riconoscitore
