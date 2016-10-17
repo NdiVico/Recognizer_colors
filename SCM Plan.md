@@ -6,9 +6,7 @@ La seguente idea di progetto nasce con il proposito di aiutare coloro i quali pr
 al fine di garantire una percezione del mondo più completa. L'idea è quella di realizzare un riconoscitore
 di colori per non vedenti e/o daltonici, predisposto con un'opportuna strumentazione per la segnalazione 
 acustica in grado di permettere all'utilizzatore di riconoscere il colore dell'oggetto di riferimento. La 
-realizzazione del dispositivo si basa su una scheda elettronica (Arduino) e due moduli con funzioni rispet-
--ivamente di riconoscimento dei colori e di invio della segnalazione acustica. Come ambiente di sviluppo 
-Software è stato utilizzato l'IDE di Arduino.
+realizzazione del dispositivo si basa su una scheda elettronica (Arduino) e due moduli con funzioni rispettivamente di riconoscimento dei colori e di invio della segnalazione acustica. Come ambiente di sviluppo Software è stato utilizzato l'IDE di Arduino.
 
 2 **Management**
 
@@ -29,7 +27,7 @@ fini dell'implementazione del dispositivo stesso:
 - [x] implementazione funzioni di Arduino:
 
     - [x] read_color(): dovrà permettere di settare il modulo di riconoscimento dei colori per fornire i valori misurati dai
-      fotodiodi per i colori rosso, verde e blu, stampandoli poi a monitor. Inoltre dovrà definire gli intervalli oppurtuni dei 
+      fotodiodi per i colori rosso, verde e blu, stampandoli poi a monitor. Inoltre dovrà definire gli intervalli oppurtuni             dei 
       valori acquisiti in precedenza al fine di identificare il rispettivo colore. Per ogni intervallo viene inserita la 
       funzione di invio dei file audio.
 
