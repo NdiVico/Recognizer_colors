@@ -24,7 +24,7 @@ Il team di lavoro è composto da
 3 **Configuration items**
 
 - Source Code
-- Software Requirement Configuration
+- Software Requirement Specification
 - Test Data
 - Input Data
 - Support Software
