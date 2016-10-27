@@ -23,11 +23,11 @@ Il team di lavoro è composto da
 
 3 **Configuration items**
 
--- Source Code
--# Software Requirement Configuration
--- Test Data
--# Input Data
--- Support Software
+- Source Code
+- Software Requirement Configuration
+- Test Data
+- Input Data
+- Support Software
 
 4 **Promotion and release policies**
 
