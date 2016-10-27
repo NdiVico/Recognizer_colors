@@ -10,13 +10,32 @@ realizzazione del dispositivo si basa su una scheda elettronica (Arduino) e due 
 
 2 **Management**
 
-Il team di lavoro è composto da:
+Il team di lavoro è composto da
+
+
+- Configuration Manager: Capobianco;
+
+- Change Control Board Member: di Vico, Luisi;
 
 - Developer: di Vico, Luisi, Capobianco;
 
-- Auditor: di Vico, Luisi, Capobianco;
+- Auditor: di Vico, Luisi, Capobianco
 
-3 **Activities and Schedule**
+3 **Configuration items**
+
+-- Source Code
+-# Software Requirement Configuration
+-- Test Data
+-# Input Data
+-- Support Software
+
+4 **Promotion and release policies**
+
+- Politica di promotion: il codice sorgente deve essere compilabile, senza errori o warning.
+
+- Politica di release: deve essere effettuato il testing funzionale.
+
+5 **Activities and Schedule**
 
 Il rilascio del prototipo funzionante del dispositivo è prevista per 30/09/16. I costi relativi alla parte hardware del
 dispositivo non superano gli 80 euro. In seguito viene riportata la successione delle attività che devono essere svolte ai
@@ -31,7 +50,7 @@ fini dell'implementazione del dispositivo stesso:
       valori acquisiti in precedenza al fine di identificare il rispettivo colore. Per ogni intervallo viene inserita la 
       funzione di invio dei file audio.
 
-4 **Tools**
+6 **Tools**
 
 Come sistema di versioning verrà utilizzato GitHub e installato SourceTree per gestire da remoto i commit e i push da remoto.
 I file audio verranno convertiti dal formato mp3 o wav a .ad4 attraverso SOMO tool, mentre per effettuare le registrazioni
