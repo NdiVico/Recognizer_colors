@@ -93,37 +93,37 @@ void readColor() {
     Serial.print("Rosso");
     wtv020sd16p.playVoice(1);
   }
-  if(R<120 & R>60 & G<75 & G>30 & B<70 & B>50 ){
+   else if(R<120 & R>60 & G<75 & G>30 & B<70 & B>50 ){
     Serial.print("Verde");
     wtv020sd16p.playVoice(2);
   }
-  if(R<50 & R>24 & G<60 & G>30 & B<70 & B>30){
+  else if(R<50 & R>24 & G<60 & G>30 & B<70 & B>30){
     Serial.print("Giallo");
     wtv020sd16p.playVoice(4);
   }
-  if(R<110 & R>70 & G<90 & G>60 & B<60 & B>35 ){
+  else if(R<110 & R>70 & G<90 & G>60 & B<60 & B>35 ){
     Serial.print("Blu");
     wtv020sd16p.playVoice(3);
   }
-  if(R<130 & R>100 & G<150 & G>120 & B<110 & B>80){
+  else if(R<130 & R>100 & G<150 & G>120 & B<110 & B>80){
     Serial.print("Marrone");
     wtv020sd16p.playVoice(5);
   }
-  if(R<380 & R>200 & G<390 & G>200 & B<290 & B>150 ){
+  else if(R<380 & R>200 & G<390 & G>200 & B<290 & B>150 ){
     Serial.print("Nero");
     wtv020sd16p.playVoice(6);
   }
-  if(R<40 & R>20 & G<40 & G>20 & B<30 & B>15 ){
+  else if(R<40 & R>20 & G<40 & G>20 & B<30 & B>15 ){
     Serial.print("Bianco");
     wtv020sd16p.playVoice(7);
   }
-  if(R<25 & R>10 & G<20 & G>10 & B<20 & B>10 ){
+  else if(R<25 & R>10 & G<20 & G>10 & B<20 & B>10 ){
     Serial.print("Grigio");
     wtv020sd16p.playVoice(8);
   }
   else {
-    Serial.print("colore non trovato");
-    wtv020sd16p.playVoice(8);
+    Serial.print("colore non rilevato");
+    wtv020sd16p.playVoice(11);
   }
   
 }
