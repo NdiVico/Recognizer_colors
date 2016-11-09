@@ -52,6 +52,6 @@ fini dell'implementazione del dispositivo stesso:
 
 6 **Tools**
 
-Come sistema di versioning verrà utilizzato Git, hosted GitHub e client SourceTree, per gestire da remoto i commit e i push da remoto.
+Come sistema di versioning verrà utilizzato Git, hosted GitHub e client SourceTree, per gestire da remoto i commit ed i push.
 I file audio verranno convertiti dal formato mp3 o wav a .ad4 attraverso SOMO tool, mentre per effettuare le registrazioni
 vocali verrà utilizzato un software di editing audio open source chiamato AUDACITY.
